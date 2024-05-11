@@ -3,12 +3,12 @@ import json
 import telebot
 
 ##TOKEN DETAILS
-TOKEN = "TRON"
+TOKEN = "Credit"
 
 BOT_TOKEN = "6513346712:AAEh6l4T9UBJ-ligRE2fdigf10GUZr7IFII"
 PAYMENT_CHANNEL = "@trx_payment_proof_bot" #add payment channel here including the '@' sign
 OWNER_ID = 6097439527 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["@Crypto_Loot"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+CHANNELS = ["@GIVEAWAYxTANMAY", "@DONT_talk_about_me1","@vipaccountsfree"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
               #you can add as many channels here and also add the '@' sign before channel username
 Daily_bonus = 0.05 #Put daily bonus amount here!
 Mini_Withdraw = 0.5  #remove 0 and add the minimum withdraw u want to set
@@ -64,7 +64,7 @@ def start(message):
         markup = telebot.types.InlineKeyboardMarkup()
         markup.add(telebot.types.InlineKeyboardButton(
            text='🤼‍♂️ Joined', callback_data='check'))
-        msg_start = "*🍔 To Use This Bot You Need To Join This Channel - "
+        msg_start = "*🍔 To Use This Bot You Need To Join These  Channels - "
         for i in CHANNELS:
             msg_start += f"\n➡️ {i}\n"
         msg_start += "*"
