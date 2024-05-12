@@ -4,7 +4,7 @@ import telebot
 ## TOKEN DETAILS
 TOKEN = "Credit"
 
-BOT_TOKEN = "6722321283:AAEW8_q5vG9VgAbRuEKmp1eTRt3XJMj2t_0"
+BOT_TOKEN = "6311818634:AAEnyN8OPYmwwOWNVk4B_KvBL7XR72Le8tE"
 PAYMENT_CHANNEL = "@payout22234"  # add payment channel here including the '@' sign
 OWNER_ID = 6097439527  # write owner's user id here.. get it from @MissRose_Bot by /id
 Per_Refer = 0.5  # add per refer bonus here
@@ -154,8 +154,7 @@ def callback_handler(call):
         bot.send_message(OWNER_ID, "Your bot encountered an error in callback handler.")
 
 
-print("ALIVE")
+print("BOT IS ALIVE")
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
-          
